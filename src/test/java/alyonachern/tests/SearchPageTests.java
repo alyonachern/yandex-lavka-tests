@@ -13,7 +13,6 @@ public class SearchPageTests extends BaseTest {
 
     MainPage mainPage = new MainPage();
     SearchPage searchPage = new SearchPage();
-    RandomDataUtils ru = new RandomDataUtils();
 
     @ParameterizedTest(name = "При успешном поиске {0} на странице поиска отображается заголовок {1}")
     @CsvSource(value = {"сахар, Вот что мы нашли по запросу «сахар»", "сливки, Вот что мы нашли по запросу «сливки»"})
