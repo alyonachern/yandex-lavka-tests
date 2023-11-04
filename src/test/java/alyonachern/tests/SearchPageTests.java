@@ -2,7 +2,6 @@ package alyonachern.tests;
 
 import alyonachern.pages.MainPage;
 import alyonachern.pages.SearchPage;
-import alyonachern.utils.RandomDataUtils;
 import io.qameta.allure.Feature;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
